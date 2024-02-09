@@ -13,6 +13,8 @@ license="${mod_license}"
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
+logoFile="pack.png"
+# I am trying something i hope will work
 [[mods]] #mandatory
 # The modid of the mod
 modId="${mod_id}" #mandatory
@@ -20,6 +22,7 @@ modId="${mod_id}" #mandatory
 version="${mod_version}" #mandatory
 # A display name for the mod
 displayName="${mod_name}" #mandatory
+credits = "Thanks to des7767 for helping me with issues and errors when making this mod, and thanks to kaupenjoe for making video tutorials that allowed me to learn how to mod!"
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
