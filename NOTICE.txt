@@ -1,0 +1,16 @@
+                                    NOTICE
+    -Please refer to the LICENSE.txt file to see the license used for this mod.
+    -If you have any questions or enquires please contact me at @epicvon2468 on
+    discord, or email me at thomaschad0909@gmail.com.
+    -Please note that I did not write the license used for this, it is the
+    Apache License, Version 2.0 and information about it can be found at:
+    "https://www.apache.org/licenses/LICENSE-2.0".
+    -Data, information and licenses for this collection of files and folder groups
+    were last updated on Saturday the 10th, February 2024.
+    -If any information here is found to be outdated, please contact me at the relevant
+    contact addresses on lines 3 and 4 of this txt file.
+    -Also please note that the TEMPLATE-LICENSE.txt file was there by default, and has been
+    left there as a placeholder and is not to be used for advice on this specific group of
+    files and folders.
+
+                                  END NOTICE
