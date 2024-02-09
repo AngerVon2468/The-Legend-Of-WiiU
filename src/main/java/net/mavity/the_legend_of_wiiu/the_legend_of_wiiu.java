@@ -34,7 +34,7 @@ public class the_legend_of_wiiu
 
     public static final List<Supplier<? extends ItemLike>> ITEM_TAB = new ArrayList<>();
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> BLABLABLA = TABS.register("words", () -> CreativeModeTab.builder()
-            .title(Component.literal("TLOW")) //The language key for the title of your CreativeModeTab
+            .title(Component.literal("§6TLOW")) //The language key for the title of your CreativeModeTab
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> ModItems.GREEN_RUPEE.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
