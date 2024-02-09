@@ -1,0 +1,7 @@
+{
+  "parent": "the_legend_of_wiiu:custom/rgsone",
+  "textures": {
+    "0": "the_legend_of_wiiu:block/rgspng3",
+    "particle": "the_legend_of_wiiu:item/rgspng3"
+  }
+}

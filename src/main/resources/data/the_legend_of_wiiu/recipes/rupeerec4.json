@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    " a ",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "the_legend_of_wiiu:red_rupee"
+    }
+  },
+  "result": {
+    "item": "the_legend_of_wiiu:purple_rupee",
+    "count": 1
+  }
+}
