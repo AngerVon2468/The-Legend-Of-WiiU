@@ -1,6 +1,8 @@
+![Mod Logo](src/main/resources/pack.png)
 
-***__The Legend Of WiiU__***
+The Legend Of WiiU
 =======
+
 - [Github](https://github.com/AngerVon2468/The-Legend-Of-WiiU)
 
 - [Discord](https://discord.gg/UkuASUwJpC)
