@@ -37,6 +37,10 @@ public class ModItems {
             () -> new SwordItem(Tiers.WOOD, 7, -2.4f,
                     new Item.Properties()));
 
+    public static final DeferredItem<Item> THE_MASTER_SWORD = ITEMS.register("the_master_sword",
+            () -> new SwordItem(Tiers.DIAMOND, 10, -2.4f,
+                    new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
