@@ -1,6 +1,7 @@
 package net.mavity.the_legend_of_wiiu;
 
 import com.mojang.logging.LogUtils;
+import net.mavity.the_legend_of_wiiu.block.ModBlocks;
 import net.mavity.the_legend_of_wiiu.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -46,6 +47,7 @@ public class the_legend_of_wiiu
                 output.accept(ModItems.SILVER_RUPEE.get());
                 output.accept(ModItems.GOLD_RUPEE.get());
                 output.accept(ModItems.ROYAL_GUARDS_SWORD.get());
+                output.accept(ModBlocks.EXAMPLE_BLOCK.get());
             }).build());
 
     // Define mod id in a common place for everything to reference
@@ -59,6 +61,7 @@ public class the_legend_of_wiiu
     {
 
         ModItems.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
         TABS.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

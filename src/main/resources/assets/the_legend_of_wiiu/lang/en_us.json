@@ -6,11 +6,6 @@
   "item.the_legend_of_wiiu.purple_rupee": "§dPurple Rupee (50)",
   "item.the_legend_of_wiiu.silver_rupee": "§7Silver Rupee (100)",
   "item.the_legend_of_wiiu.gold_rupee": "§6Gold Rupee (300)",
-  "advancements.the_legend_of_wii_u_ad.title": "The Legend Of WiiU",
-  "advancements.the_legend_of_wii_u_ad.descr": "Play minecraft with The Legend Of WiiU Mod active.",
-  "advancements.oooooo_shiny.title": "Ooooooo shiny...",
-  "advancements.oooooo_shiny.descr": "Obtain a green rupee",
-  "advancements.shhhhitsasecrettoeveryone.title": "Shhhhhhh... It's a secret to everyone...",
-  "advancements.shhhhitsasecrettoeveryone.descr": "Obtain a gold rupee",
-  "item.the_legend_of_wiiu.royal_guards_sword": "Royal Guard's Sword"
+  "item.the_legend_of_wiiu.royal_guards_sword": "Royal Guard's Sword",
+  "block.the_legend_of_wiiu.example_block": "Example Block (Placeholder)"
 }
