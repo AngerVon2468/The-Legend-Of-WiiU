@@ -3,6 +3,7 @@ package net.mavity.the_legend_of_wiiu;
 import com.mojang.logging.LogUtils;
 import net.mavity.the_legend_of_wiiu.block.ModBlocks;
 import net.mavity.the_legend_of_wiiu.item.ModItems;
+import net.mavity.the_legend_of_wiiu.util.KeyBindings;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -15,6 +16,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -75,6 +77,9 @@ public class the_legend_of_wiiu
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
+        if (FMLEnvironment.dist == Dist.CLIENT) {
+            modEventBus.addListener(KeyBindings::keyBind);
+        }
 
     }
 
