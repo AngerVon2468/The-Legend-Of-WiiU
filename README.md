@@ -13,3 +13,4 @@ The Legend Of WiiU
 
 Thanks to Des for helping me to figure out code, and thanks to KaupenJoe for his 1.20.1 Forge modding tutorials, which I used as a basis for making this mod.
 Also, incase you didn't figure it out already, the text in en_us, and en_au is a joke, use the English (UK) lang when playing.
+Also, thanks to the people at [https://www.upsidedowntext.com/](https://www.upsidedowntext.com/), it allowed me to make the upside down text file without difficulty

@@ -1,0 +1,1 @@
+execute as @e[sort=nearest,limit=1,type=!minecraft:player,distance=..8] run tp @p[limit=1,sort=nearest] ~ ~ ~ facing entity @e[type=!minecraft:player,limit=1,sort=nearest]
