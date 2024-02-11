@@ -1,0 +1,1 @@
+execute at @p[tag=snapto,limit=1] run function the_legend_of_wiiu:tick
