@@ -9,5 +9,7 @@
   "item.the_legend_of_wiiu.royal_guards_sword": "Royal Guard's Sword",
   "block.the_legend_of_wiiu.example_block": "Example Block (Placeholder)",
   "item.the_legend_of_wiiu.the_master_sword": "§6The Master Sword",
-  "tab.the_legend_of_wiiu.tlow": "§6TLOW"
+  "tab.the_legend_of_wiiu.tlow": "§6TLOW",
+  "key.the_legend_of_wiiu.target": "Target",
+  "key.categories.the_legend_of_wiiu": "TLOW Keybinds"
 }
