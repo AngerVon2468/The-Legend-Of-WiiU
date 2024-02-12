@@ -11,5 +11,6 @@
   "item.the_legend_of_wiiu.the_master_sword": "The Master GUN",
   "tab.the_legend_of_wiiu.tlow": "GUN",
   "key.the_legend_of_wiiu.target": "GUN",
-  "key.categories.the_legend_of_wiiu": "TLOW GUN"
+  "key.categories.the_legend_of_wiiu": "TLOW GUN",
+  "block.the_legend_of_wiiu.ped_with_ms": "Pedestal With Master GUN"
 }
