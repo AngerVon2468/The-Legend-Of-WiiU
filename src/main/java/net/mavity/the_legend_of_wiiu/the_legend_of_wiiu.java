@@ -51,6 +51,7 @@ public class the_legend_of_wiiu
                 output.accept(ModItems.ROYAL_GUARDS_SWORD.get());
                 output.accept(ModBlocks.EXAMPLE_BLOCK.get());
                 output.accept(ModItems.THE_MASTER_SWORD.get());
+                output.accept(ModBlocks.PED_WITH_MS.get());
             }).build());
 
     // Define mod id in a common place for everything to reference
