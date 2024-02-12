@@ -2,6 +2,7 @@ package net.mavity.the_legend_of_wiiu;
 
 import com.mojang.logging.LogUtils;
 import net.mavity.the_legend_of_wiiu.block.ModBlocks;
+import net.mavity.the_legend_of_wiiu.event.ModEvents;
 import net.mavity.the_legend_of_wiiu.item.ModItems;
 import net.mavity.the_legend_of_wiiu.util.KeyBindings;
 import net.minecraft.client.Minecraft;
@@ -64,6 +65,8 @@ public class the_legend_of_wiiu
     public the_legend_of_wiiu(IEventBus modEventBus)
     {
 
+
+        NeoForge.EVENT_BUS.register(new ModEvents());
         ModItems.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
         TABS.register(modEventBus);
