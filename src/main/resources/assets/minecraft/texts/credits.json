@@ -1,90 +1,90 @@
 [
   {
-    "section": "The Legend Of WiiU",
+    "section": "§6The Legend Of WiiU",
     "disciplines": [
       {
-        "discipline": "TLOW Leadership",
+        "discipline": "§5TLOW Leadership",
         "titles": [
           {
-            "title": "The Hero Of TLOW",
+            "title": "§6The Hero Of TLOW",
             "names": [
-              "Mavity The Mad"
+              "§6Mavity The Mad"
             ]
           },
           {
-            "title": "Main Developer",
+            "title": "§bMain Developer",
             "names": [
-              "Mavity The Mad"
+              "§6Mavity The Mad"
             ]
           },
           {
-            "title": "Assistant Developer/Helper",
+            "title": "§bAssistant Developer/Helper",
             "names": [
-              "Des"
+              "§eDes"
             ]
           }
         ]
       },
       {
-        "discipline": "TLOW Assets",
+        "discipline": "§5TLOW Assets",
         "titles": [
           {
-            "title": "Main Artist",
+            "title": "§bMain Artist",
             "names": [
-              "Mavity The Mad"
+              "§6Mavity The Mad"
             ]
           },
           {
-            "title": "Main 3d Modeller",
+            "title": "§bMain 3d Modeller",
             "names": [
-              "Mavity The Mad"
+              "§6Mavity The Mad"
             ]
           }
         ]
       },
       {
-        "discipline": "TLOW Code",
+        "discipline": "§5TLOW Code",
         "titles": [
           {
-            "title": "Coding God",
+            "title": "§bCoding God",
             "names": [
-              "Des",
-              "Also Des",
-              "Des again",
-              "Still Des",
-              "ITS ALWAYS GOING TO BE DES!!!"
+              "§eDes",
+              "§eAlso Des",
+              "§eDes again",
+              "§eStill Des",
+              "§eITS ALWAYS GOING TO BE DES!!!"
             ]
           },
           {
-            "title": "\"Main Coder\"",
+            "title": "§b\"Main Coder\"",
             "names": [
-              "Mavity The Madity (Possibly)"
+              "§6Mavity The Madity (Possibly)"
             ]
           },
           {
-            "title": "The real main coder here lmao",
+            "title": "§bThe real main coder here lmao",
             "names": [
-              "Des"
+              "§eDes"
             ]
           }
         ]
       },
       {
-        "discipline": "Doesn't pay their taxes section",
+        "discipline": "§5Doesn't pay their taxes section",
         "titles": [
           {
-            "title": "The star of the section",
+            "title": "§bThe star of the section",
             "names": [
-              "IdeallyKafei"
+              "§9IdeallyKafei"
             ]
           }
         ]
       },
       {
-        "discipline": "Does pay their taxes section",
+        "discipline": "§5Does pay their taxes section",
         "titles": [
           {
-            "title": "The star of the section",
+            "title": "§bThe star of the section",
             "names": [
               "Boko Bro"
             ]
@@ -92,10 +92,10 @@
         ]
       },
       {
-        "discipline": "The .json File Typos",
+        "discipline": "§5The .json File Typos",
         "titles": [
           {
-            "title": "The Typo Count",
+            "title": "§bThe Typo Count",
             "names": [
               "1002"
             ]
