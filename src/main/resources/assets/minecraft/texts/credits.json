@@ -1,12 +1,12 @@
 [
   {
-    "section": "§6The Legend Of WiiU",
+    "section": "§eThe Legend Of WiiU",
     "disciplines": [
       {
         "discipline": "§5TLOW Leadership",
         "titles": [
           {
-            "title": "§6The Hero Of TLOW",
+            "title": "§6The Hero Of WiiU",
             "names": [
               "§6Mavity The Mad"
             ]
@@ -21,6 +21,12 @@
             "title": "§bAssistant Developer/Helper",
             "names": [
               "§eDes"
+            ]
+          },
+          {
+            "title": "§bTherapy Wabbit",
+            "names": [
+              "§6Pablo <3"
             ]
           }
         ]
@@ -86,7 +92,18 @@
           {
             "title": "§bThe star of the section",
             "names": [
-              "Boko Bro"
+              "§9Boko Bro"
+            ]
+          }
+        ]
+      },
+      {
+        "discipline": "§5The most pog champ community",
+        "titles": [
+          {
+            "title": "§bThe best group of people ever :)",
+            "names": [
+              "§6ZMC (Zelda Minecraft Community)"
             ]
           }
         ]
@@ -97,7 +114,7 @@
           {
             "title": "§bThe Typo Count",
             "names": [
-              "1002"
+              "1001 Typos detected"
             ]
           }
         ]
