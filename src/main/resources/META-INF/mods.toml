@@ -27,6 +27,7 @@ credits = "Thanks to des7767 for helping me with issues and errors when making t
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayURL="https://github.com/AngerVon2468/The-Legend-Of-WiiU"
 # A file name (in the root of the mod JAR) containing a logo for display
 #logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
@@ -72,7 +73,7 @@ side="BOTH"
 # Here's another dependency
 [[dependencies.the_legend_of_wiiu]]
     modId="minecraft"
-    type="required"
+    type="optional"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="${minecraft_version_range}"
     ordering="NONE"
