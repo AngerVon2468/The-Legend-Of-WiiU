@@ -1,7 +1,6 @@
 package net.mavity.the_legend_of_wiiu;
 
 import com.mojang.logging.LogUtils;
-import com.mojang.serialization.Codec;
 import net.mavity.the_legend_of_wiiu.block.ModBlocks;
 import net.mavity.the_legend_of_wiiu.event.ModEvents;
 import net.mavity.the_legend_of_wiiu.item.ModItems;
@@ -20,12 +19,10 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import org.slf4j.Logger;
 
 import java.util.ArrayList;
@@ -57,6 +54,7 @@ public class the_legend_of_wiiu
                 output.accept(ModItems.THE_MASTER_SWORD.get());
                 output.accept(ModItems.THE_AWAKENED_MASTER_SWORD.get());
                 output.accept(ModBlocks.PED_WITH_MS.get());
+                output.accept(ModItems.MAJORAS_MASK.get());
             }).build());
 
     // Define mod id in a common place for everything to reference
