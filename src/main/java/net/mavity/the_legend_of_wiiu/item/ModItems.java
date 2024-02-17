@@ -1,9 +1,7 @@
 package net.mavity.the_legend_of_wiiu.item;
 
 import net.mavity.the_legend_of_wiiu.the_legend_of_wiiu;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tiers;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
