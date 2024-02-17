@@ -6,7 +6,6 @@ import net.mavity.the_legend_of_wiiu.block.ModBlocks;
 import net.mavity.the_legend_of_wiiu.event.ModEvents;
 import net.mavity.the_legend_of_wiiu.item.ModItems;
 import net.mavity.the_legend_of_wiiu.util.KeyBindings;
-import net.mavity.the_legend_of_wiiu.util.datagen.glm.RupeeModifier;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -64,14 +63,10 @@ public class the_legend_of_wiiu
     public static final String MODID = "the_legend_of_wiiu";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    private static final DeferredRegister<Codec<? extends IGlobalLootModifier>> LOOT_MODIFIERS = DeferredRegister.create(NeoForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, the_legend_of_wiiu.MODID);
-    public static DeferredHolder<Codec<? extends IGlobalLootModifier>, Codec<RupeeModifier>> RUPEE_MODIFIER =
-            LOOT_MODIFIERS.register("rupee_modifier", RupeeModifier.CODEC);
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public the_legend_of_wiiu(IEventBus modEventBus)
     {
-        LOOT_MODIFIERS.register(modEventBus);
         NeoForge.EVENT_BUS.register(new ModEvents());
         ModItems.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);

@@ -45,6 +45,8 @@ public class ModItems {
             () -> new SwordItem(Tiers.DIAMOND, 14, -2.4f,
                     new Item.Properties()));
 
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

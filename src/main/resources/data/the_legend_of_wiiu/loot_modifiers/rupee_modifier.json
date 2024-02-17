@@ -1,9 +1,0 @@
-{
-  "conditions": [
-    {
-      "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:blocks/short_grass"
-    }
-  ],
-  "type": "the_legend_of_wiiu:rupee_modifier"
-}
