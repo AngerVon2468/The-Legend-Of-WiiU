@@ -13,5 +13,7 @@
   "key.the_legend_of_wiiu.target": "Target",
   "key.categories.the_legend_of_wiiu": "TLOW Keybinds",
   "block.the_legend_of_wiiu.ped_with_ms": "§6Pedestal With Master Sword",
-  "item.the_legend_of_wiiu.the_awakened_master_sword": "§6The Awakened Master Sword"
+  "item.the_legend_of_wiiu.the_awakened_master_sword": "§6§lThe Awakened Master Sword",
+  "item.the_legend_of_wiiu.majoras_mask": "§4§lMajora's Mask",
+  "item.the_legend_of_wiiu.wiiu": "§lWii§r§b§lU"
 }
