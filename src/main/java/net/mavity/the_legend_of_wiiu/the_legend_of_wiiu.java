@@ -55,6 +55,7 @@ public class the_legend_of_wiiu
                 output.accept(ModItems.THE_AWAKENED_MASTER_SWORD.get());
                 output.accept(ModBlocks.PED_WITH_MS.get());
                 output.accept(ModItems.MAJORAS_MASK.get());
+                output.accept(ModItems.THE_WIIU.get());
             }).build());
 
     // Define mod id in a common place for everything to reference

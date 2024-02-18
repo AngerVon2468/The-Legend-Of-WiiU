@@ -1,0 +1,7 @@
+{
+  "parent": "the_legend_of_wiiu:custom/thewiiu",
+  "textures": {
+    "0": "the_legend_of_wiiu:block/thewiiupngpng",
+    "particle": "the_legend_of_wiiu:item/thewiiupngpng"
+  }
+}

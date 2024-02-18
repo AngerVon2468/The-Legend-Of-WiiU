@@ -46,6 +46,9 @@ public class ModItems {
     public static final DeferredItem<Item> MAJORAS_MASK = ITEMS.register("majoras_mask",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> THE_WIIU = ITEMS.register("wiiu",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
