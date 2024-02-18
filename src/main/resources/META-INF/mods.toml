@@ -72,6 +72,14 @@ side="BOTH"
 
 # Here's another dependency
 [[dependencies.the_legend_of_wiiu]]
+modId="tipsmod"
+type="optional"
+versionRange=""
+ordering="NONE"
+side="CLIENT"
+
+# Here's another dependency
+[[dependencies.the_legend_of_wiiu]]
     modId="minecraft"
     type="optional"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
