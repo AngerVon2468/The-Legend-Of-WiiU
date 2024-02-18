@@ -74,7 +74,7 @@ side="BOTH"
 [[dependencies.the_legend_of_wiiu]]
 modId="tipsmod"
 type="optional"
-versionRange=""
+versionRange="15.0.2"
 ordering="NONE"
 side="CLIENT"
 
