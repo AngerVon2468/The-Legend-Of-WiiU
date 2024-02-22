@@ -1,0 +1,5 @@
+If you aren't me, this file doesn't really matter for you
+-Make rupees obtainable
+-Make all swords obtainable
+-Fix targeting (Maybe)
+-Add more complex features
